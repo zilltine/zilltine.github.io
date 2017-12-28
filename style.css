@@ -186,3 +186,22 @@ body {
 #temos span:hover {
 	color: black;
 }
+
+td {
+	border: 2px solid black;
+	padding: 2px 6px;
+	
+	color: #0372dd;
+}
+tr {
+	border: 2px solid #0372dd;
+
+}
+table{
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #0372dd;
+	color: #ffc820;
+}
