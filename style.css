@@ -1,2 +1,188 @@
-body {background-color: white;
+
+#Header {
+	width: auto;
+	background-color:#f5f6f7;
+	height: 28px;
+}
+nav {
+	width: auto;
+	height: 56px;
+	box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.1);
+	position: sticky;
+	top: 0px;
+	background-color: white;
+}
+#navbar {
+	position: relative;
+	margin: 0 auto;
+	width: auto;
+	max-width: 1160px;
+	height: 56px;
+}
+
+#logo {
+	position: absolute;
+	top: 0px;
+	left: 40px;	
+	height: 56px;
+	width: 95px;
+}
+
+#logo img {
+	padding: 15px 0px 15px 0px;
+	height: 26px;
+}
+#hamburger {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 25px;
+	height: 56px;
+	
+}
+#hamburger i {
+	position: absolute;
+	top: 18px;
+	left: 4px;
+}
+#Head {
+
+	height: 28px;
+	width: auto;
+	max-width: 1160px;
+	position: relative;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: 'Alegreya Sans';
+	color: #6e7179;
+}
+#hover {
+	position: relative;
+	width: 85px;
+	margin: 0;
+	padding: 0;
+	padding-left: 3px;
+	float: right;
+	display: inline-block;
+	cursor:pointer;
+	z-index: 1;
+}
+
+#hover span:hover {
+	color:black;
+
+}
+#hoverContent {
+	display: none;
+	position: absolute;
+	margin-right: 10px;	
+	background-color:#f5f6f7;
+		
+}
+
+#hoverContent div {
+	position: relative;
+	left: -5px;
+	width: 85px;
+	background-color:#f5f6f7;
+	height: 22px;
+	
+	padding-left: 5px;
+}
+iframe {
+	margin: 25px 300px;
+	}
+#hoverContent div:hover{
+	color: black;
+}
+#hover:hover #hoverContent {
+	display:block;
+	/*margin-right: 3px;*/
+
+}
+#menu a {
+	font-family: 'Alegreya Sans';
+	color: #6e7179;
+	text-decoration: none;
+
+}
+#weather {
+	height: 18px;
+	width: auto;
+	position: absolute;
+	margin-left: 0px;
+	padding: 5px 10px 5px 5px;
+}
+
+#sun {
+	font-size: 10px;
+	vertical-align: top;
+	
+}
+
+#menu ul {
+	height: 18px;
+	float: left;
+	position: absolute;
+	margin:5px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0px 5px;
+	
+}
+
+#menu a:hover {
+	color: black;
+}
+
+
+#menu {
+/*	margin-right: 0px;
+	margin-left: 310px;*/
+	position: absolute;
+	right: 0px;
+	width: 730px;
+	height: 18px;
+	padding: 5px 0px 5px 5px;
+
+
+}
+#count {
+	color: #0372dd;
+
+}
+
+
+body {
+	background-color: white;
+	margin: 0px;
+}
+#body {
+	width: auto;
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+#temos {
+	height: 56px;
+	position: absolute;
+	right: 0px;
+}
+#temos span {
+	position: relative;
+	top:20px;
+	color: #3c3c3c;
+	padding-right: 5px;
+	font-family: 'Slabo 27px', serif;
+	cursor: pointer;
+}
+#temos span:hover {
+	color: black;
 }
