@@ -89,9 +89,7 @@ nav {
 	
 	padding-left: 5px;
 }
-iframe {
-	margin: 25px 300px;
-	}
+
 #hoverContent div:hover{
 	color: black;
 }
@@ -204,4 +202,21 @@ table{
 th {
 	background-color: #0372dd;
 	color: #ffc820;
+}
+.straipsnis {
+	float: left;
+	margin: 25px 10px;
+	width: 560px;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.straipsnis a {
+	text-decoration: none;
+	color: black;
+}
+
+.straipsnis a:hover {
+	text-decoration: none;
+	color: #6e7179;
 }
