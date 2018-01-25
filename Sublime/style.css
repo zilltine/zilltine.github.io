@@ -1,0 +1,46 @@
+#header {
+	background-color: #4B4B4B;
+	width: 1215px;
+	margin: 0px auto;
+}
+header {
+	background-color: #4B4B4B;
+	margin: 0px auto;
+	width: 100%;
+
+}
+body {
+	padding: 0px;
+	margin: 0px;
+}
+#logo {
+	width: 200px;
+	margin: 14px 0px ;
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 4px;
+
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+	color: white;
+	text-transform: capitalize;
+}
+
+header nav ul {
+	display: inline-block;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 2px 18px 0px 10px;
+	font-size: 18px;
+	font-family: calibri;
+	cursor: pointer;
+}
+
+header nav ul li:hover {
+	color:#ddd;
+}

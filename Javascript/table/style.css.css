@@ -1,0 +1,30 @@
+/* table */
+
+table, th, td {
+    border: 1px solid #FFC107;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    font-family: calibri;
+}
+td {
+	background: #392c6e;
+	color: white;
+}
+th {
+	text-transform: uppercase;
+    background: #e6ae30;
+}
+th:nth-child(odd) {
+	background: #FFC107;
+}
+
+/* inputs */
+.input-wrapper {
+	width: 550px;
+	margin: 2rem 0;
+}
+.input {
+	display: inline-block;
+}

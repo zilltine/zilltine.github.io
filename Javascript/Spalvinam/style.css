@@ -1,0 +1,31 @@
+.kvadratas {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 25px;
+}
+.mazas {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background-color: pink;
+	border: 1px solid black;
+}
+#juodas {
+	background-color: black;
+}
+
+#pilkas {
+	background-color: gray;
+}
+
+#melynas {
+	background-color: blue;
+}
+#rudas {
+	background-color: brown;
+}
+
+#geltonas {
+	background-color: yellow;
+}

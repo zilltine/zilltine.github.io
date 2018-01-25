@@ -1,0 +1,124 @@
+* {
+	padding: 0px;
+/*	border: 1px solid red;*/
+}
+body {
+	background: url("doodles.png");
+	font-family: calibri;
+}
+header {
+	min-width: 640px;
+	width: 100%;
+	height: 100px;
+
+}
+img {
+	height: 100px;
+}
+#logo {
+	display: inline-block;
+	height: 100px;
+	padding-left: 35px;
+}
+
+ul {
+	display: inline-block;
+	/*position: absolute;
+	right: 0px;*/
+	float: right;
+	width: 75%;
+	min-width: 580px;
+	padding: 40px 0px;
+	margin: 0px;
+
+}
+
+li {
+	display: inline-block;
+	padding: 0 7%;
+	float: right;
+	font-weight: 900;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+#Text {
+	display: inline-block;
+	width: 49vw;
+	min-width: 440px;
+	height: 700px;
+	float: left;
+	vertical-align: center;
+	
+}
+
+#logIn {
+	display: inline-block;
+	width: 49vw;
+	min-width: 440px;
+	height: 600px;
+	float: left;
+	
+}
+@media (max-width: 900px) {
+	#logIn, #Text {width: 90vw;}
+}
+
+main: {
+	position:relative;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+
+form {
+	background: #f0f0f0;
+	border: none;
+	border-radius: 10px;
+	width: 440px;
+	margin: 150px auto 0 auto;
+}
+
+input {
+	height: 36px;
+	border: none;
+	display: inline-block;
+	width: 380px;
+	margin: 20px 20px;
+	height: 70px;
+	font-size: 25px;
+	padding-left: 20px;
+	font-family: calibri;
+}
+
+#button {
+	background: #70cdde;
+	border-radius: 10px;
+	text-transform: uppercase;
+	color: white;
+	padding-left: 0px;
+}
+
+#button:hover {
+	background-color: #56a4b3;
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 65px;
+	margin: 150px 60px 40px 80px;
+	max-width: 650px;
+}
+
+
+h2 {
+	font-size: 35px;
+	max-width: 650px;
+	margin-left: 80px;
+}
+
+@media print {
+	header {display:none;}
+}
