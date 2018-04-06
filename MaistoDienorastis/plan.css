@@ -1,0 +1,99 @@
+
+.dayContainer {
+	position: relative;
+	top: 10px;
+	display: block;
+	margin: 0px auto;
+	height: 150px;
+	border: 1px solid black;
+	max-width: 1250px;
+}
+.addDay {
+	display: inline-block;
+	height: 100%;
+	border: 1px solid black;
+	width: 150px;
+	vertical-align: top;
+}
+.breakfast {
+	display: inline-block;
+	height: 100%;
+	border: 1px solid black;
+	width: 300px;
+	vertical-align: top;
+
+}
+.lunch {
+	display: inline-block;
+	height: 100%;
+	border: 1px solid black;
+	width: 300px;
+	vertical-align: top;
+
+}
+.dinner {
+	display: inline-block;
+	height: 100%;
+	border: 1px solid black;
+	width: 300px;
+	vertical-align: top;
+
+}
+.snacks {
+	display: inline-block;
+	height: 100%;
+	border: 1px solid black;
+	width: 300px;
+	vertical-align: top;
+
+}
+#sidebar {
+	width: 300px;
+	height: 800px;
+	position: fixed;
+	top: 80px;
+	right: 10px;
+	border: 1px solid black;
+}
+#leftBar{
+	width: 300px;
+	position: fixed;
+	top: 80px;
+	left: 10px;
+	display: inline-block;
+}
+#addBtn {
+	display: inline;
+	font-size: 150px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#previewPlan {
+	display: inline;
+	font-size: 40px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.result {
+	position: absolute;
+	background-color: white;
+	top: 45px;
+	width: 200px;
+}
+.thisId {
+	display:none;
+}
+.id {
+	display:none;
+}
+.addedRecipe {
+	display: inline-block;
+}
+.addedProduct {
+	display: inline-block;
+}
+.recipeAmount, .productsAmount {
+	width: 35px;
+}
