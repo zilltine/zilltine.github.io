@@ -56,6 +56,7 @@ if (isset($_POST['register'])) {
 					$last_id = mysqli_insert_id($conn);
 					$_SESSION['id']=$last_id;
 					$_SESSION['user']=$username;
+					echo "<script>location.replace('index.php');</script>";
 				}
 			}
 	}
