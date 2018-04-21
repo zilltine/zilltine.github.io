@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,7 +55,6 @@ if (isset($_POST['register'])) {
 				$query = "INSERT INTO users (password,email,username) 
 				VALUES ('$pass','$email','$username')";
 				if (mysqli_query($conn, $query)){
-					session_start();
 					$last_id = mysqli_insert_id($conn);
 					$_SESSION['id']=$last_id;
 					$_SESSION['user']=$username;
